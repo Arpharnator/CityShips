@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <faction name="CityShips" 
+    display_name="Wandering City Ship" short_name="City Ships" processing_group="CityShips"
+    base_info_source="CityShipsFactionBaseInfo" deep_info_source="CityShipsFactionDeepInfo" team_center_color="cFDEE00" team_border_color="cDAA520"
+    type="SpecialFaction"
+    description="A city ship has arrived into the galaxy. It will try to create structures accross the galaxy in order to grow more prosperous and powerful.
+
+&lt;color=#f25e1c&gt;HIGH IMPACT:&lt;/color&gt; Depending on the intensity and invasion time the impact of the faction will be vary greatly. For example an immediate invasion, intensity 10 will be around the realms of Medium to High Impact, while a having the invasion later could turn it into a complete flop. Note that killing the City Ship will make the faction unable to build new structures. Here's what you can expect overall :
+Roaming around in a powerful ship, this foe's impact is mainly felt if they manage to seed and upgrade a few structures. Even if they were to fail in that endeavor, the City Ship remains a noticeable enemy."
+		ai_can_send_waves_against_this="true" 
+		can_use_spire_debris="false"
+		impact="Moderate" 
+		CanBeFriendlyToPlayer="true" 
+		CanBeHostileToAll="true" 
+		CanBeOnMinorFactionTeam="true" 
+		icon_name_for_lobby="Ships3/AnchorStruct"
+		defeat_condition="HasNoStrength">
+        <npc_ship_cap name="Strikecraft"    overriding_per_faction_cap_of_stacks="5000" />
+        <custom_field name="Intensity"      display_name="Intensity" description="Just how terrifying is this faction?" sort_group="200" setting_type="IntSlider" default="5" min="1" max="10"/>
+        <custom_field name="Allegiance"     display_name="Allegiance" description="Is this faction friendly to the AI(s), humans, or nobody?" sort_group="250" setting_type="CustomDropdownArbitraryOptions" arbitrary_options="Hostile To All,Friendly To Players,Hostile To Players Only,Minor Faction Team Red,Minor Faction Team Blue,Minor Faction Team Green" default_option="Hostile To All" />
+	<custom_field name="InvasionTime" display_name="Invasion Time" description="The Wandering City Ship can be set to invade the galaxy at some unknown time during the game, or immediately. An immediate spawn is the norm, with late invasion times being far less powerful."
+                  sort_group="300" setting_type="CustomDropdownArbitraryOptions" arbitrary_options="Immediate,Early Game,Mid Game,Late Game" default_option="Immediate"/>
+    <custom_field name="SpawnNearPlayer" is_advanced_setting="true" display_name="Spawn Near Player" description="Definitely not recommended unless friendly to you."
+                  sort_group="300" setting_type="BoolToggle" default="false"  />
+	</faction>
+</root>

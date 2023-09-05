@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<chamber name="Example" is_partial_record="true">	
+        <!--Adding in extra entities to the main test chamber that are related to this expansion.-->
+
+
+		<spawn entity="TurboRaider" count="20" mark_level="1" faction_name="AI" x="4000" y="-8000" />
+		<spawn entity="TurboRaider" count="20" mark_level="1" faction_name="AI" x="4000" y="-8000" />
+		<spawn entity="TurboRaider" count="20" mark_level="1" faction_name="AI" x="4000" y="-8000" />
+		<spawn entity="TurboRaider" count="20" mark_level="1" faction_name="AI" x="4000" y="-8000" />
+		<spawn entity="TurboRaider" count="20" mark_level="1" faction_name="AI" x="4000" y="-8000" />
+		<spawn entity="TurboRaider" count="20" mark_level="1" faction_name="AI" x="4000" y="-8000" />
+		<spawn entity="TurboRaider" count="20" mark_level="1" faction_name="AI" x="4000" y="-8000" />
+		<spawn entity="TurboRaider" count="20" mark_level="1" faction_name="AI" x="4000" y="-8000" />
+		<spawn entity="TurboRaider" count="20" mark_level="1" faction_name="AI" x="4000" y="-8000" />
+		<spawn entity="TurboRaider" count="20" mark_level="1" faction_name="AI" x="4000" y="-8000" />
+		<spawn entity="TurboRaider" count="20" mark_level="1" faction_name="AI" x="4000" y="-8000" />
+		
+		<spawn entity="CityShipEconomicUnitTier1" count="1" mark_level="1" faction_name="FirstPlayer" x="4000" y="-8000" />
+		<spawn entity="CityShipEconomicUnitTier2" count="1" mark_level="1" faction_name="FirstPlayer" x="4000" y="-8000" />
+		<spawn entity="CityShipEconomicUnitTier3" count="1" mark_level="1" faction_name="FirstPlayer" x="4000" y="-8000" />
+		<spawn entity="CityShipEconomicUnitTier4" count="1" mark_level="1" faction_name="FirstPlayer" x="4000" y="-8000" />
+		
+		<spawn entity="CityShipTier1" count="1" mark_level="1" faction_name="FirstPlayer" x="4000" y="-8000" />
+		<spawn entity="CityShipTier2" count="1" mark_level="1" faction_name="FirstPlayer" x="4000" y="-8000" />
+		<spawn entity="CityShipTier3" count="1" mark_level="1" faction_name="FirstPlayer" x="4000" y="-8000" />
+		<spawn entity="CityShipTier4" count="1" mark_level="1" faction_name="FirstPlayer" x="4000" y="-8000" />
+		
+		<spawn entity="CityShipDefenseTier1" count="1" mark_level="1" faction_name="FirstPlayer" x="4000" y="-8000" />
+		<spawn entity="CityShipDefenseTier2" count="1" mark_level="1" faction_name="FirstPlayer" x="4000" y="-8000" />
+		<spawn entity="CityShipDefenseTier3" count="1" mark_level="1" faction_name="FirstPlayer" x="4000" y="-8000" />
+		
+		<spawn entity="CityShipDecompositionDire" count="1" mark_level="1" faction_name="FirstPlayer" x="6000" y="-8000" />
+		
+		<!--
+		<spawn entity="TurboRaider" count="1" mark_level="1" faction_name="AI" x="4000" y="-8000" />
+		<spawn entity="TurboRaider" count="20" mark_level="1" faction_name="AI" x="4000" y="-8000" />
+		<spawn entity="TurboRaider" count="20" mark_level="1" faction_name="AI" x="4000" y="-8000" />
+
+		<spawn entity="Raptor" count="20" mark_level="1" faction_name="AI" x="4000" y="-8000" />
+		<spawn entity="Raptor" count="20" mark_level="1" faction_name="AI" x="4000" y="-8000" />
+		
+		
+		<spawn entity="AlienCorvette" count="32" mark_level="1" faction_name="FirstPlayer" x="-8000" y="8000" />	
+		<spawn entity="TachyonArray" count="5" mark_level="7" faction_name="FirstPlayer" x="-8000" y="-8000" />	
+		<spawn entity="TachyonArray" count="5" mark_level="7" faction_name="FirstPlayer" x="-4000" y="-8000" />	
+		<spawn entity="TachyonArray" count="5" mark_level="7" faction_name="FirstPlayer" x="-0000" y="-8000" />	 
+	-->
+<!--
+		<spawn entity="VWing" count="1" mark_level="1" faction_name="AI" x="4000" y="-8000" />
+		<spawn entity="VWing" count="2" mark_level="1" faction_name="AI" x="4000" y="-8000" />
+		<spawn entity="VWing" count="3" mark_level="1" faction_name="AI" x="4000" y="-8000" />
+		<spawn entity="VWing" count="4" mark_level="1" faction_name="AI" x="4000" y="-8000" />
+		<spawn entity="VWing" count="5" mark_level="1" faction_name="AI" x="4000" y="-8000" />
+		<spawn entity="VWing" count="6" mark_level="1" faction_name="AI" x="4000" y="-8000" />
+		
+		<spawn entity="InstigatorBase" count="1" mark_level="1" faction_name="AI" x="4000" y="-8000" />
+	-->
+		<!-- <spawn entity="VWing" mark_level="1" count="10" faction_name="FirstPlayer" x="4000" y="-8000" /> -->
+
+
+		<!-- <spawn entity="PhoenixEgg" mark_level="1" faction_name="AI" x="-8000" y="8000" />	 -->
+		<!-- <spawn entity="PhoenixEgg" mark_level="1" faction_name="AI" x="-8000" y="8000" /> -->	
+		<!--<spawn entity="DireVampireGuardian" mark_level="1" faction_name="AI" x="-16000" y="8000" />		-->
+		<!--<spawn entity="RoyalRetributionGuardian" mark_level="1" faction_name="AI" x="-24000" y="8000" />	-->
+		<!--<spawn entity="RoyalDireGrenadeLauncherGuardian" mark_level="1" faction_name="AI" x="-24000" y="-8000" />-->
+		
+		<!-- <spawn entity="SoloFrenzyGolem" mark_level="7" faction_name="FirstPlayer" x="4000" y="-8000" />		
+		<spawn entity="SoloFrenzyGolem" mark_level="7" faction_name="FirstPlayer" x="4000" y="-8000" />		 -->
+<!--
+		<spawn entity="SpireLostFrigateRailcannon" mark_level="7" faction_name="FirstPlayer" x="4000" y="-8000" />	
+-->
+<!--
+		<spawn entity="ScourgeSpawner" mark_level="1" faction_name="FirstPlayer" x="-2000" y="6000" />	
+		<spawn entity="ScourgeArmory" mark_level="1" faction_name="FirstPlayer" x="0" y="6000" />
+
+		<spawn entity="ScourgeSpireBurlustWarrior" mark_level="1" faction_name="FirstPlayer" x="-4000" y="4000" />	
+		<spawn entity="SpireNeinzulWarrior" mark_level="1" faction_name="FirstPlayer" x="-2000" y="4000" />		
+		<spawn entity="SpireThoraxianWarrior" mark_level="1" faction_name="FirstPlayer" x="0" y="4000" />	
+		<spawn entity="SpirePeltianWarrior" mark_level="1" faction_name="FirstPlayer" x="2000" y="4000" />
+		<spawn entity="SpireEvuckWarrior" mark_level="1" faction_name="FirstPlayer" x="4000" y="4000" />		
+		
+		<spawn entity="BurlustEvuckWarrior" mark_level="1" faction_name="FirstPlayer" x="-4000" y="2000" />	
+		<spawn entity="NeinzulBurlustWarrior" mark_level="1" faction_name="FirstPlayer" x="-2000" y="2000" />		
+		<spawn entity="ThoraxianNeinzulWarrior" mark_level="1" faction_name="FirstPlayer" x="0" y="2000" />	
+		<spawn entity="PeltianThoraxianWarrior" mark_level="1" faction_name="FirstPlayer" x="2000" y="2000" />
+		<spawn entity="EvuckPeltianWarrior" mark_level="1" faction_name="FirstPlayer" x="4000" y="2000" />		
+		
+		<spawn entity="BurlustWarrior" mark_level="1" faction_name="FirstPlayer" x="-4000" y="0" />	
+		<spawn entity="EvuckWarrior" mark_level="1" faction_name="FirstPlayer" x="-2000" y="0" />		
+		<spawn entity="NeinzulWarrior" mark_level="1" faction_name="FirstPlayer" x="0" y="0" />	
+		<spawn entity="PeltianWarrior" mark_level="1" faction_name="FirstPlayer" x="2000" y="0" />
+		<spawn entity="ThoraxianWarrior" mark_level="1" faction_name="FirstPlayer" x="4000" y="0" />
+		<spawn entity="SpireWarrior" mark_level="1" faction_name="FirstPlayer" x="6000" y="0" />
+        <spawn entity="PikeGuardian" mark_level="1" faction_name="FirstPlayer" x="6000" y="1000" />		
+		
+        <spawn entity="Neophyte" mark_level="1" faction_name="FirstPlayer" x="-2000" y="-2000" />
+		<spawn entity="Warrior" mark_level="1" faction_name="FirstPlayer" x="0" y="-2000" />
+		<spawn entity="Builder" mark_level="1" faction_name="FirstPlayer" x="2000" y="-2000" />		
+		
+        <spawn entity="AssaultFrigate" mark_level="1" faction_name="FirstPlayer" x="-4000" y="-4000" />
+		<spawn entity="AssaultFrigate" mark_level="1" faction_name="FirstPlayer" x="-2000" y="-4000" />
+		<spawn entity="AssaultFrigate" mark_level="1" faction_name="FirstPlayer" x="0" y="-4000" />
+		<spawn entity="AssaultFrigate" mark_level="1" faction_name="FirstPlayer" x="2000" y="-4000" />
+		<spawn entity="AssaultFrigate" mark_level="1" faction_name="FirstPlayer" x="4000" y="-4000" />		
+
+        <spawn entity="DirePlasmaGuardian" mark_level="1" faction_name="FirstPlayer" x="-4000" y="-6000" />
+		<spawn entity="DirePlasmaGuardian" mark_level="1" faction_name="FirstPlayer" x="-2000" y="-6000" />
+		<spawn entity="DirePlasmaGuardian" mark_level="1" faction_name="FirstPlayer" x="0" y="-6000" />
+		<spawn entity="DirePlasmaGuardian" mark_level="1" faction_name="FirstPlayer" x="2000" y="-6000" />
+		<spawn entity="DirePlasmaGuardian" mark_level="1" faction_name="FirstPlayer" x="4000" y="-6000" />		
+		
+        <spawn entity="SpireFrigate" mark_level="1" faction_name="FirstPlayer" x="-4000" y="-8000" />
+		<spawn entity="SpireDestroyer" mark_level="1" faction_name="FirstPlayer" x="-2000" y="-8000" />
+		<spawn entity="SpireCruiser" mark_level="1" faction_name="FirstPlayer" x="0" y="-8000" />
+		<spawn entity="SpireBattleship" mark_level="1" faction_name="FirstPlayer" x="2000" y="-8000" />
+		<spawn entity="SpireDreadnought" mark_level="1" faction_name="FirstPlayer" x="4000" y="-8000" />
+
+		<spawn entity="SpireCityHub" mark_level="1" faction_name="FirstPlayer" x="-4000" y="-10000" />
+		<spawn entity="SpireShipyard" mark_level="1" faction_name="FirstPlayer" x="-2000" y="-10000" />
+		<spawn entity="SpireEngineeringCenter" mark_level="1" faction_name="FirstPlayer" x="0" y="-10000" />
+		<spawn entity="SpireShardReactor" mark_level="1" faction_name="FirstPlayer" x="2000" y="-10000" />
+		<spawn entity="SpireGalacticCapitol" mark_level="1" faction_name="FirstPlayer" x="4000" y="-10000" />
+		
+		<spawn entity="SpireMiningFacility" mark_level="1" faction_name="FirstPlayer" x="-4000" y="-12000" />
+		<spawn entity="SpireFrigateNeuralNet" mark_level="1" faction_name="FirstPlayer" x="-2000" y="-12000" />
+		<spawn entity="SpireDestroyerNeuralNet" mark_level="1" faction_name="FirstPlayer" x="0" y="-12000" />
+		<spawn entity="SpireGreatShieldEmitter" mark_level="1" faction_name="FirstPlayer" x="2000" y="-12000" />
+		<spawn entity="SpireLesserSpyCradle" mark_level="1" faction_name="FirstPlayer" x="4000" y="-12000" />
+
+		<spawn entity="SpirePlasmaDriver" mark_level="1" faction_name="FirstPlayer" x="-4000" y="-14000" />
+		<spawn entity="LesserSpireFortress" mark_level="1" faction_name="FirstPlayer" x="-2000" y="-14000" />
+		<spawn entity="GreaterSpireFortress" mark_level="1" faction_name="FirstPlayer" x="0" y="-14000" />
+		<spawn entity="SpireButtress" mark_level="1" faction_name="FirstPlayer" x="2000" y="-14000" />
+		<spawn entity="SpireGreaterSpyCradle" mark_level="1" faction_name="FirstPlayer" x="4000" y="-14000" />			
+
+		<spawn entity="SpireTransceiver" mark_level="1" faction_name="FirstPlayer" x="-4000" y="-16000" />
+		<spawn entity="AISpireCitadel" mark_level="1" faction_name="FirstPlayer" x="-2000" y="-16000" />
+		<spawn entity="AISpireResearchLab" mark_level="1" faction_name="FirstPlayer" x="0" y="-16000" />
+		<spawn entity="SpireRelicTrain" mark_level="1" faction_name="FirstPlayer" x="2000" y="-16000" />
+		<spawn entity="SpireDebris" mark_level="1" faction_name="FirstPlayer" x="4000" y="-16000" />	
+		
+		<spawn entity="SpireRelic" mark_level="1" faction_name="AntiAIZombie" x="0" y="-18000" />
+		<spawn entity="LostEnergyReactor" mark_level="1" faction_name="FirstPlayer" x="2000" y="-18000" />
+		<spawn entity="AbandonedAsteroidMine" mark_level="1" faction_name="FirstPlayer" x="4000" y="-18000" />
+
+		<spawn entity="ReanimatorDrone" mark_level="1" faction_name="FirstPlayer" x="-4000" y="-20000" />
+		<spawn entity="ExtragalacticPoltergeist" mark_level="1" faction_name="FirstPlayer" x="-2000" y="-20000" />
+		<spawn entity="ExtragalacticMaugrim" mark_level="1" faction_name="FirstPlayer" x="0" y="-20000" />
+		<spawn entity="ExtragalacticAIHunterSeeker" mark_level="1" faction_name="FirstPlayer" x="2000" y="-20000" />
+		<spawn entity="FenrirDrone" mark_level="1" faction_name="FirstPlayer" x="4000" y="-20000" />
+		
+		<spawn entity="ExtragalacticWendigo" mark_level="1" faction_name="FirstPlayer" x="-4000" y="-22000" />
+		<spawn entity="ExtragalacticWyrm" mark_level="1" faction_name="FirstPlayer" x="-2000" y="-22000" />
+		<spawn entity="ExtragalacticAIHunterAnnihilator" mark_level="1" faction_name="FirstPlayer" x="0" y="-22000" />
+		<spawn entity="ExtragalacticChimeraArtillery" mark_level="1" faction_name="FirstPlayer" x="2000" y="-22000" />
+		<spawn entity="ExtragalacticChimera" mark_level="1" faction_name="FirstPlayer" x="4000" y="-22000" />
+		
+		<spawn entity="ExtragalacticPhoenix" mark_level="1" faction_name="FirstPlayer" x="0" y="-24000" />
+		
+		<spawn entity="ExtragalacticFlenser" mark_level="1" faction_name="FirstPlayer" x="10000" y="-10000" />
+		<spawn entity="ExtragalacticMothership" mark_level="1" faction_name="FirstPlayer" x="10000" y="0" />
+		<spawn entity="ExtragalacticPlanetCracker" mark_level="1" faction_name="FirstPlayer" x="10000" y="10000" />
+
+		<spawn entity="Subjugator" mark_level="1" faction_name="FirstPlayer" x="-10000" y="-10000" />
+		<spawn entity="Nemesis" mark_level="1" faction_name="FirstPlayer" x="-10000" y="0" />		
+		
+		<spawn entity="CrusherTurret" mark_level="1" faction_name="FirstPlayer" x="20000" y="-13000" />
+		<spawn entity="InterceptorTurret" mark_level="1" faction_name="FirstPlayer" x="20000" y="-12000" />
+		<spawn entity="SeekerTurret" mark_level="1" faction_name="FirstPlayer" x="20000" y="-11000" />
+		<spawn entity="MicroConcussiveMissileTurret" mark_level="1" faction_name="FirstPlayer" x="20000" y="-10000" />
+		<spawn entity="EMPTurret" mark_level="1" faction_name="FirstPlayer" x="20000" y="-9000" />
+		<spawn entity="HoloceneMissileTurret" mark_level="1" faction_name="FirstPlayer" x="20000" y="-8000" />
+		<spawn entity="TranslocatorTurret" mark_level="1" faction_name="FirstPlayer" x="20000" y="-7000" />
+		<spawn entity="JammerTurret" mark_level="1" faction_name="FirstPlayer" x="20000" y="-6000" />
+		<spawn entity="FuseballTurret" mark_level="1" faction_name="FirstPlayer" x="20000" y="-5000" />
+		<spawn entity="ImploderTurret" mark_level="1" faction_name="FirstPlayer" x="20000" y="-4000" />	
+		<spawn entity="FusionTurret" mark_level="1" faction_name="FirstPlayer" x="20000" y="-3000" />
+		<spawn entity="BlasterTurret" mark_level="1" faction_name="FirstPlayer" x="20000" y="-2000" />
+		<spawn entity="MiniFortress" mark_level="1" faction_name="FirstPlayer" x="20000" y="-1000" />
+		<spawn entity="BulwarkTurret" mark_level="1" faction_name="FirstPlayer" x="20000" y="0" />
+		<spawn entity="BlitzkriegTurret" mark_level="1" faction_name="FirstPlayer" x="20000" y="1000" />
+		<spawn entity="CounterSniperTurret" mark_level="1" faction_name="FirstPlayer" x="20000" y="2000" />
+		<spawn entity="AblativeTurret" mark_level="1" faction_name="FirstPlayer" x="20000" y="3000" />
+		<spawn entity="HailstormTurret" mark_level="1" faction_name="FirstPlayer" x="20000" y="4000" />
+		<spawn entity="VampireTurret" mark_level="1" faction_name="FirstPlayer" x="20000" y="5000" />
+		<spawn entity="SolarFlareTurret" mark_level="1" faction_name="FirstPlayer" x="20000" y="6000" />
+		<spawn entity="ScrapTurret" mark_level="1" faction_name="FirstPlayer" x="20000" y="7000" />
+		<spawn entity="GeminiTurret" mark_level="1" faction_name="FirstPlayer" x="20000" y="8000" />
+		<spawn entity="AcidTurret" mark_level="1" faction_name="FirstPlayer" x="20000" y="9000" />
+		<spawn entity="HarmonicTurret" mark_level="1" faction_name="FirstPlayer" x="20000" y="10000" />
+		<spawn entity="SubverterTurret" mark_level="1" faction_name="FirstPlayer" x="20000" y="11000" />
+		<spawn entity="MakeshiftTurret" mark_level="1" faction_name="FirstPlayer" x="20000" y="12000" />
+		<spawn entity="BeamCannon" mark_level="1" faction_name="FirstPlayer" x="20000" y="13000" />
+		<spawn entity="NucleophilicTurret" mark_level="1" faction_name="FirstPlayer" x="21000" y="13000" />
+		<spawn entity="DeathgripTurret" mark_level="1" faction_name="FirstPlayer" x="21000" y="12000" />
+		<spawn entity="ShredderTurret" mark_level="1" faction_name="FirstPlayer" x="21000" y="11000" />
+		<spawn entity="RuffianTurret" mark_level="1" faction_name="FirstPlayer" x="21000" y="10000" />
+		<spawn entity="BastilleTurret" mark_level="1" faction_name="FirstPlayer" x="21000" y="9000" />
+		<spawn entity="PlasmaTurret" mark_level="1" faction_name="FirstPlayer" x="21000" y="8000" />
+		<spawn entity="AmbushTurret" mark_level="1" faction_name="FirstPlayer" x="21000" y="7000" />
+		
+		<spawn entity="ViralShredder" mark_level="1" faction_name="FirstPlayer" x="21000" y="-14000" />
+        <spawn entity="DeathgripTackleDrone" mark_level="1" faction_name="FirstPlayer" x="21000" y="-13000" />
+		<spawn entity="TackleDroneLauncherFrigate" mark_level="1" faction_name="FirstPlayer" x="21000" y="-12000" />
+        <spawn entity="TeslaTorpedo" mark_level="1" faction_name="FirstPlayer" x="21000" y="-11000" />
+        <spawn entity="TeslaTorpedoFrigate" mark_level="1" faction_name="FirstPlayer" x="21000" y="-10000" />
+        <spawn entity="Bombard" mark_level="1" faction_name="FirstPlayer" x="21000" y="-9000" />
+
+        <spawn entity="SpireLostFrigateRailcannon" mark_level="1" faction_name="FirstPlayer" x="21000" y="-9000" />		-->
+			
+	</chamber>		
+</root>

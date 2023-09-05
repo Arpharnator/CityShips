@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  
+  <threading_request_type name="_Deep.CityShips-MovementPlanning" can_only_run_one_at_a_time="true" seconds_after_which_to_warn_of_long_running="10" />
+
+</root>
