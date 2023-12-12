@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29201.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityShips", "..\CityShips\CityShips\CityShips.csproj", "{C92761DA-5159-4051-A2E3-38D73B65C2F8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityShipsFactionBaseInfo", "..\CityShips\CityShips\CityShipsFactionBaseInfo.csproj", "{C92761DA-5159-4051-A2E3-38D73B65C2F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityShipsDeep", "..\CityShipsDeep\CityShipsDeep\CityShipsDeep.csproj", "{45339514-C2F9-474A-9854-025920A57EB7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityShipsFactionDeepInfo", "..\CityShipsDeep\CityShipsDeep\CityShipsFactionDeepInfo.csproj", "{45339514-C2F9-474A-9854-025920A57EB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

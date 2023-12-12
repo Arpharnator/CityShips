@@ -1,3 +1,7 @@
 No tech support provided from Arcen Games on mods.
 
 Introduces the City Ships as a new faction.
+
+A City Ship will invade at some point in the game. It will then wander and attempt to become more prosperous by establishing settlements and defend them by placing down defenses to protect them.
+Given enough time and little disturbance, it will grow prosperous and powerful, and be able to contend with the powers of the galaxy.
+Can be put on any team barring the Dark Alliance, and you can also choose when it will invade.

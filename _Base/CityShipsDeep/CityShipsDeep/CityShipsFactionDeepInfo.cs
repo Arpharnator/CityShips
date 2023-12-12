@@ -88,7 +88,7 @@ namespace Arcen.AIW2.External
                             //No need to go past the first loop if we are to seed near the player
                             if (preferredHomeworldDistance == 0)
                                 break;
-                        } while (workingAllowedSpawnPlanets.Count < 6);
+                        } while (workingAllowedSpawnPlanets.Count < 24);
                     }
 
                     //debugCode = 900;
@@ -173,7 +173,7 @@ namespace Arcen.AIW2.External
                     tag = "CityShipsGuardian";
                 }
             }
-            if (entity.TypeData.GetHasTag("CityShipsCitadel") || entity.TypeData.GetHasTag("CityShipsCityShipTier3"))
+            if (entity.TypeData.GetHasTag("CityShipsCitadel") || entity.TypeData.GetHasTag("CityShipsCityShipTier3") || entity.TypeData.GetHasTag("CityShipsCityShipTier4"))
             {
                 int random = Context.RandomToUse.Next(0, 100);
                 if (random < 30)
@@ -643,35 +643,42 @@ namespace Arcen.AIW2.External
                         
                         entity.Planet.DoForPlanetsWithinXHops(-1, delegate (Planet planet, Int16 Distance)
                         {
-                            //debugCode = 400;
-                            var pFaction = planet.GetStanceDataForFaction(AttachedFaction);
-
-                            if(data.toBuildDefenseOrEcon == 0) //we build defense
+                            if(!(planet.PopulationType == PlanetPopulationType.AIBastionWorld || planet.PopulationType == PlanetPopulationType.AIHomeworld))
                             {
-                                for (int j = 0; j < defenses.Count; j++)
-                                {
-                                    if (defenses[j].Planet == planet)
-                                    {
-                                        //if (tracing && verboseDebug)
-                                        //    tracingBuffer.Add("\t\tNo, we have a castle already").Add("\n");
+                                //debugCode = 400;
+                                var pFaction = planet.GetStanceDataForFaction(AttachedFaction);
 
-                                        return DelReturn.Continue;
+                                if (data.toBuildDefenseOrEcon == 0) //we build defense
+                                {
+                                    for (int j = 0; j < defenses.Count; j++)
+                                    {
+                                        if (defenses[j].Planet == planet)
+                                        {
+                                            //if (tracing && verboseDebug)
+                                            //    tracingBuffer.Add("\t\tNo, we have a castle already").Add("\n");
+
+                                            return DelReturn.Continue;
+                                        }
                                     }
                                 }
-                            }
-                            else if(data.toBuildDefenseOrEcon == 1) //we build econ
-                            {
-                                for (int j = 0; j < economicUnits.Count; j++)
+                                else if (data.toBuildDefenseOrEcon == 1) //we build econ
                                 {
-                                    if (economicUnits[j].Planet == planet)
+                                    for (int j = 0; j < economicUnits.Count; j++)
                                     {
-                                        //if (tracing && verboseDebug)
-                                        //    tracingBuffer.Add("\t\tNo, we have a castle already").Add("\n");
+                                        if (economicUnits[j].Planet == planet)
+                                        {
+                                            //if (tracing && verboseDebug)
+                                            //    tracingBuffer.Add("\t\tNo, we have a castle already").Add("\n");
 
-                                        return DelReturn.Continue;
+                                            return DelReturn.Continue;
+                                        }
                                     }
                                 }
+                                WorkingPlanetsList.Add(planet);
+                                if (WorkingPlanetsList.Count > 5)
+                                    return DelReturn.Break;
                             }
+                            
                             /*for (int i = 0; i < constructors.Count; i++)
                             {
                                 GameEntity_Squad ship = constructors[i].GetSquad();
@@ -688,9 +695,7 @@ namespace Arcen.AIW2.External
                                 }
                             }*/
 
-                            WorkingPlanetsList.Add(planet);
-                            if (WorkingPlanetsList.Count > 5)
-                                return DelReturn.Break;
+                            
                             return DelReturn.Continue;
                         });
                         if (WorkingPlanetsList.Count == 0)
